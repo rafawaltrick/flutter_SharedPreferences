@@ -83,37 +83,37 @@ class LoginPageState extends State<LoginPage> {
             TextField(
               controller: _emailController,
               decoration: const InputDecoration(labelText: 'Email'),
-              obscureText: true,
+              obscureText: false,
             ),
             TextField(
               controller: _enderecoController,
               decoration: const InputDecoration(labelText: 'Endereco'),
-              obscureText: true,
+              obscureText: false,
             ),
             TextField(
               controller: _estadoController,
               decoration: const InputDecoration(labelText: 'Estado'),
-              obscureText: true,
+              obscureText: false,
             ),
             TextField(
               controller: _numeroController,
               decoration: const InputDecoration(labelText: 'Numero'),
-              obscureText: true,
+              obscureText: false,
             ),
             TextField(
               controller: _complementoController,
               decoration: const InputDecoration(labelText: 'Complemento'),
-              obscureText: true,
+              obscureText: false,
             ),
             TextField(
               controller: _cidadeController,
               decoration: const InputDecoration(labelText: 'Cidade'),
-              obscureText: true,
+              obscureText: false,
             ),
             TextField(
               controller: _siteController,
               decoration: const InputDecoration(labelText: 'Site'),
-              obscureText: true,
+              obscureText: false,
             ),
             ElevatedButton(
               onPressed: () async {
